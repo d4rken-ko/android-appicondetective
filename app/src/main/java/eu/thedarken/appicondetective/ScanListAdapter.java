@@ -67,9 +67,9 @@ public class ScanListAdapter extends BaseAdapter {
         ScanItem item = getItem(position);
         if (item.getWidth() > 0 && item.getHeight() > 0) {
             int percent = (int) ((item.getPxCount() * 100.0f) / mOptimalCount);
-            holder.pxCount.setText("PX: " + item.getPxCount() + " (" + percent + "%)");
+            holder.pxCount.setText("피엑스(PX): " + item.getPxCount() + " (" + percent + "%)");
         } else {
-            holder.pxCount.setText("Unsupported");
+            holder.pxCount.setText("지원되지 않음");
         }
 
         holder.dimen.setText(item.getType());
