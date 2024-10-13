@@ -4,18 +4,18 @@
     xmlns:aid="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/menu_scanner_refresh"
-        android:title="Refresh"
+        android:title="새로 고치다"
         android:icon="@drawable/ic_action_reload"
         aid:showAsAction="always" />
     <item
         android:id="@+id/menu_by_darken"
-        android:title="darken @ Twitter"
+        android:title="트위터 소셜 미디어에서 프로필이 어두워짐"
         android:icon="@drawable/ic_action_twitter"
         aid:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/menu_github"
-        android:title="Source code"
+        android:title="소스 코드"
         android:icon="@drawable/ic_action_github"
         aid:showAsAction="ifRoom" />
 </menu>
