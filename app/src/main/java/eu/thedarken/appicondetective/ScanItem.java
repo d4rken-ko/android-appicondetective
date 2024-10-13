@@ -58,11 +58,11 @@ public class ScanItem {
 
     public String toUserReadableString(int normalSize) {
         StringBuilder builder = new StringBuilder();
-        builder.append("AppName:" + getName() + "\n");
-        builder.append("PackageName:" + getPackageName() + "\n");
-        builder.append("Width x Height:" + getWidth() + "x" + getHeight() + "\n");
+        builder.append("앱 이름:" + getName() + "\n");
+        builder.append("패키지 이름:" + getPackageName() + "\n");
+        builder.append("너비 x 높이:" + getWidth() + "x" + getHeight() + "\n");
         int percent = (int) ((getPxCount() * 100.0f) / normalSize);
-        builder.append("Above default:" + percent + "%");
+        builder.append("기본값 이상:" + percent + "%");
         return builder.toString();
     }
 
